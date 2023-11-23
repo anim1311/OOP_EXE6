@@ -140,9 +140,9 @@ public class TestExercise06b {
     Course de = new Course("EL-2302", "Digital Electronics", prof1, 5);
     Classroom oop_class = new Classroom(oop, "01 02 005");
     Classroom de_class = new Classroom(de, "01 02 006", date2.getTime());
-    assertEquals("WS2022/23", oop_class.getTerm());
+    assertEquals("WS2023/24", oop_class.getTerm());
     assertEquals("SS2022", de_class.getTerm());
-    assertEquals("EL-2309-WS2022/23", oop_class.getID());
+    assertEquals("EL-2309-WS2023/24", oop_class.getID());
     assertEquals("EL-2302-SS2022", de_class.getID());
     oop_class.addStudent(student1);
     oop_class.addStudent(student2);
